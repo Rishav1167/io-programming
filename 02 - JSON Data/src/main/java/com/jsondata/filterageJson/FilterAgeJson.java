@@ -17,7 +17,7 @@ public class FilterAgeJson {
             List<JsonNode> list = new ArrayList<>();
 
             for (JsonNode jsonNode : node) {
-                if (jsonNode.get("age").asInt() > 21) {
+                if (jsonNode.get("age").asInt() > 21 ) {
                     list.add(jsonNode);
                 }
             }
